@@ -1,6 +1,7 @@
 body {
-    background-color: antiquewhite;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    background-color: #F6EEE3;
+    color: #343235;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .header {
@@ -8,4 +9,12 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 50px;
+}
+
+.page-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    gap: 30px;
 }
